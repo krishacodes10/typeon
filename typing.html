@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Typing Master</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="typing.html">Typing</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<section id="test">
+    <div class="container typing-box">
+        <h1>Typing Speed Test</h1>
+
+        <div class="level">Level: <span id="level">1</span></div>
+
+        <div class="text-display" id="text-display"></div>
+
+        <div class="instruction">Type all characters correctly to advance to the next level.</div>
+
+        <div class="message" id="message"></div>
+
+        <div class="stats">
+            <div class="stat">WPM: <span id="wpm">0</span></div>
+            <div class="stat">Accuracy: <span id="accuracy">100%</span></div>
+            <div class="stat">Time: <span id="time">0s</span></div>
+        </div>
+
+        <div class="buttons">
+            <button id="start-btn">Start</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        <button class="back-btn" onclick="window.location.href='index.html'">Back To Home Page</button>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
